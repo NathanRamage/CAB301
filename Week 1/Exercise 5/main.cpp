@@ -31,7 +31,7 @@ long reversedNum(long num, int digits)
 
     for (int i = 0; i < digits; i++)
     {
-        int rem = num % 10;
+        long int rem = num % 10;
         revNum += rem;
         if (i != digits - 1)
         {
