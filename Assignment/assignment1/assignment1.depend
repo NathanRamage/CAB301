@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460709542 source:/home/nathan/Desktop/Code/C++/Assignment/assignment1/main.cpp
+	<iostream>
+	<ctime>
+	<string>
+
