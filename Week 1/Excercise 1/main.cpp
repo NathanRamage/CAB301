@@ -1,28 +1,32 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
-int getNumber()
+double getNumber()
 {
-    int i;
+    double i;
     cout << "Please enter an integer: ";
     cin >> i;
     return i;
 }
 
-void displaySum( int num )
+void displaySum( double num )
 {
-    int sum = 0;
-    for (int i = 0; i < num; i++ )
+    double sum = 0;
+    /*for (int i = 0; i < num; i++ )
     {
         sum += (i+1);
-    }
+    }*/
+
+    sum = ( pow(num, 2) + num ) / 2;
+
     cout << "The sum from 1 to " << num << " is " << sum << endl;
 }
 
 int main()
 {
-    int num = getNumber();
+    double num = getNumber();
     displaySum(num);
     return 0;
 }
